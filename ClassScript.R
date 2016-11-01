@@ -13,5 +13,3 @@ hist(x)
 y <- m*x + b + eps
 
 plot (x,y, cex = .05)
-
-abline(lm(y~x), lty = 2, col = "red")
